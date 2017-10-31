@@ -1,0 +1,81 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900);
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #333;
+}
+
+h1 {
+    color: #222;
+    font-weight: 900;
+    margin-bottom: 3rem;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 4rem;
+    text-shadow: 2px 1px 0px #444;
+}
+
+.container{
+    padding: 1%;
+}
+
+.columns{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+.column{
+    width: 31.33%;
+    display: block;
+    margin: 1%;
+}
+.column img {
+    border-radius: 5px;
+    box-shadow:0 1.5rem 3rem -1.5rem rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+}
+
+.column span {
+    margin-top: .5rem;
+    text-align: center;
+    display: block;
+    line-height: 2.5rem;
+}
